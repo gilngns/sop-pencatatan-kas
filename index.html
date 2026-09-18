@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- ================================================== -->
+<!-- GANTI TULISAN DI DALAM TANDA <title> DENGAN NAMAMU -->
+<!-- ================================================== -->
+<title>Nama Lengkap Kamu</title>
+
+<style>
+  :root {
+    --kertas: #FBFBF7;
+    --garis: #C3D8C6;
+    --tinta: #1C2A1F;
+    --tinta-muda: #5A6B5E;
+    --stempel: #9E3B2E;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    padding: 48px 20px 80px;
+    background: var(--kertas);
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0,
+      transparent 31px,
+      rgba(195, 216, 198, .35) 31px,
+      rgba(195, 216, 198, .35) 32px
+    );
+    color: var(--tinta);
+    font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+    font-size: 17px;
+    line-height: 32px;
+  }
+
+  .lembar {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+
+  header {
+    border-bottom: 2px solid var(--tinta);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin: 0 0 4px;
+  }
+
+  .jurusan {
+    color: var(--tinta-muda);
+    font-size: 17px;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--stempel);
+    margin: 40px 0 8px;
+    line-height: 32px;
+  }
+
+  p { margin: 0 0 16px; }
+
+  dl {
+    margin: 0;
+    border-top: 1px solid var(--garis);
+  }
+
+  .baris {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    border-bottom: 1px solid var(--garis);
+    padding: 0;
+  }
+
+  dt {
+    color: var(--tinta-muda);
+    flex: 0 0 auto;
+  }
+
+  dd {
+    margin: 0;
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+
+  a { color: var(--stempel); }
+
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--garis);
+    color: var(--tinta-muda);
+    font-size: 14px;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 16px; }
+    h1 { font-size: 28px; line-height: 40px; }
+    .baris { flex-direction: column; gap: 0; }
+    dd { text-align: left; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lembar">
+
+  <!-- ============================================ -->
+  <!-- BAGIAN 1: NAMA DAN JURUSAN                   -->
+  <!-- Ganti tulisan di bawah ini dengan punyamu    -->
+  <!-- ============================================ -->
+  <header>
+    <h1>Nama Lengkap Kamu</h1>
+    <p class="jurusan">Mahasiswa Komputerisasi Akuntansi, Universitas Komputer Indonesia</p>
+  </header>
+
+  <!-- ============================================ -->
+  <!-- BAGIAN 2: TENTANG KAMU                       -->
+  <!-- Tulis 2 sampai 3 kalimat tentang diri kamu   -->
+  <!-- ============================================ -->
+  <h2>Tentang saya</h2>
+  <p>
+    Saya mahasiswa semester lima yang tertarik pada pencatatan keuangan berbasis sistem.
+    Selama kuliah saya terbiasa mengolah data transaksi dengan Excel dan menyusun laporan
+    keuangan sederhana. Saat ini saya sedang belajar mengelola data dengan database.
+  </p>
+
+  <!-- ============================================ -->
+  <!-- BAGIAN 3: DATA DIRI                          -->
+  <!-- Ganti isi setelah tanda <dd>                 -->
+  <!-- ============================================ -->
+  <h2>Data diri</h2>
+  <dl>
+    <div class="baris">
+      <dt>NIM</dt>
+      <dd>11122001</dd>
+    </div>
+    <div class="baris">
+      <dt>Angkatan</dt>
+      <dd>2022</dd>
+    </div>
+    <div class="baris">
+      <dt>Email</dt>
+      <dd>email@kamu.com</dd>
+    </div>
+    <div class="baris">
+      <dt>Kota</dt>
+      <dd>Bandung</dd>
+    </div>
+  </dl>
+
+  <!-- ============================================ -->
+  <!-- BAGIAN 4: KEMAMPUAN                          -->
+  <!-- Tambah atau hapus baris <li> sesuai kebutuhan -->
+  <!-- ============================================ -->
+  <h2>Kemampuan</h2>
+  <ul>
+    <li>Microsoft Excel, termasuk rumus lookup dan pivot table</li>
+    <li>Penyusunan jurnal umum dan laporan keuangan</li>
+    <li>Zahir Accounting dan MYOB</li>
+    <li>Dasar SQL untuk menarik data transaksi</li>
+  </ul>
+
+  <!-- ============================================ -->
+  <!-- BAGIAN 5: PENGALAMAN                         -->
+  <!-- ============================================ -->
+  <h2>Pengalaman</h2>
+  <ul>
+    <li>Bendahara Himpunan Mahasiswa Komputerisasi Akuntansi, 2025</li>
+    <li>Peserta pelatihan GitHub Ruang Kreatif HIMA KA, September 2026</li>
+  </ul>
+
+  <!-- ============================================ -->
+  <!-- BAGIAN 6: TAUTAN                             -->
+  <!-- Ganti namaakunkamu dengan username GitHub-mu -->
+  <!-- ============================================ -->
+  <h2>Tautan</h2>
+  <p>
+    <a href="https://github.com/namaakunkamu">github.com/namaakunkamu</a>
+  </p>
+
+  <footer>
+    Halaman ini dibuat saat pelatihan GitHub Ruang Kreatif HIMA KA UNIKOM.
+  </footer>
+
+</div>
+
+</body>
+</html>
