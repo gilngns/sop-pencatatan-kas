@@ -4,7 +4,7 @@ Berlaku sejak 1 Januari 2026.
 
 ## Ketentuan umum
 
-Saldo kas kecil ditetapkan sebesar Rp 500.000 dan diisi ulang setiap awal bulan. Pengeluaran di atas Rp 250.000 tidak boleh diambil dari kas kecil, melainkan diajukan melalui kas besar. Setiap pengeluaran wajib disertai bukti berupa nota, kuitansi, atau struk asli.
+Saldo kas kecil ditetapkan sebesar Rp 1.000.000 dan diisi ulang setiap awal bulan. Pengeluaran di atas Rp 250.000 tidak boleh diambil dari kas kecil, melainkan diajukan melalui kas besar. Setiap pengeluaran wajib disertai bukti berupa nota, kuitansi, atau struk asli.
 
 ## Alur pengajuan
 
